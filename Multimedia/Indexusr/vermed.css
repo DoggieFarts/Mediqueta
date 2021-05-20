@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;1,400&display=swap');
+@font-face{
+    
+    font-family: greek;
+    src: url("Multimedia/fonts/greek.ttf");
+    
+}
+@font-face {
+    font-family: 'Okuda-Bold';
+    src:url('Multimedia/fonts/Okuda-Bold.ttf.woff') format('woff'),
+        url('Multimedia/fonts/Okuda-Bold.ttf.svg#Okuda-Bold') format('svg'),
+        url('Multimedia/fonts/Multimedia/fonts/Okuda-Bold.ttf.eot'),
+        url('Multimedia/fonts/Okuda-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+    html{
+        overflow-x:hidden;
+        background-color: #1E1E32;
+        
+}
+*{
+    
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    
+}
+.nav{
+    background: linear-gradient(to right, #e14eca,#8965e0);
+     border-bottom-left-radius: 1%;
+    border-top-left-radius: 1%;
+    border-top-right-radius: 1%;
+    border-bottom-right-radius: 1%;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 1%;
+}
+.dropdown-content{
+    border-bottom-left-radius: 1%;
+    border-top-left-radius: 1%;
+    border-top-right-radius: 1%;
+    border-bottom-right-radius: 1%;
+     
+
+}
+.dropdown-content a{
+color: black !important;
+    font-display: Raleway !important;
+    
+}
+.sidenav a{
+    font-display: Ralweay !important;
+
+}
+.dropdown-content{
+    width: 30% !important;
+}
+#panelchiquito{
+    background: linear-gradient(#e14eca,#8965e0);
+    margin-left: 2.5%;
+    width: 20%;
+    height: 79%;
+    font-family: Raleway;
+    font-weight: 200;
+    font-size: 1vw;
+    position: fixed;
+}
+.ladobar li{
+    text-decoration: none !important;
+   
+    padding: 5%;
+}
+#panelgrande{
+    margin-left: 25%;
+    width: 73%;
+    text-align: center;
+    background: #32325d;
+}
+.datos1{
+    font-size: 3vw;
+    color: white !important;
+    font-family: Raleway;
+}
+.datos2{
+    color: white !important;
+     font-family: Raleway;
+    font-size: 1.5vw;
+   
+}
+#panelgrande2{
+    margin-left: 25%;
+    width: 73%;
+    text-align: center;
+    background: #32325d;
+    
+    
+    
+}
+.datos3{
+    color: white !important;
+}

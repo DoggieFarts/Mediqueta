@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;1,400&display=swap');
+@font-face{
+    
+    font-family: greek;
+    src: url("Multimedia/fonts/greek.ttf");
+    
+}
+@font-face {
+    font-family: 'Okuda-Bold';
+    src:url('Multimedia/fonts/Okuda-Bold.ttf.woff') format('woff'),
+        url('Multimedia/fonts/Okuda-Bold.ttf.svg#Okuda-Bold') format('svg'),
+        url('Multimedia/fonts/Multimedia/fonts/Okuda-Bold.ttf.eot'),
+        url('Multimedia/fonts/Okuda-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+    html{
+        overflow: hidden;
+        background-color: #1E1E32;
+        
+}
+*{
+    
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    
+}
+.s3{
+ height:90vh;
+    
+}
+#panelchiquito{
+    background: linear-gradient(#e14eca,#8965e0);
+    margin-left: 2.0%;
+    margin-top: 2.0%;
+    font-family: Raleway;
+    
+    overflow: scroll;
+    
+}
+#panel2{
+    margin-left: 2.0%;
+    width: 67.5%;
+    text-align: center;
+    background: #32325d;
+    margin-top: 2.0%;
+    height:90vh;
+}
+.nav{
+    background: linear-gradient(to right, #e14eca,#8965e0);
+    margin-left: 2.0%;
+    margin-top: 1.0%;
+    width: 95%;
+}
+#panelmovil{
+    margin-left: 2.0%;
+    margin-top: 1.0%; 
+    width: 95%;
+}
+.ladobar li{
+    padding: 10%;
+    margin-top: 10vh;
+    font-weight: 700;
+}
+#panelchiquito::-webkit-scrollbar {
+  display: none;
+}
+
+
+#panelchiquito {
+  -ms-overflow-style: none;
+}
+
+  .input-field input[type=text]:focus + label {
+     color: white !important;
+}
+
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #e14eca !important;
+     box-shadow: 0 1px 0 0 #e14eca !important;
+       
+   }
+.input-field .prefix.active {
+     color: #e14eca !important;
+   }
+#panel3{
+     background-color: transparent !important;
+    margin-top: 3%;
+    
+}
+   .input-field input{
+     color:white;
+       font-display: Raleway;
+   }  
+
+  
+
+.input-field{
+    color: skyblue;
+}
+
+   .input-field label {
+     color: #ffffff !important;
+   }
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #e14eca !important;
+     box-shadow: 0 1px 0 0  #e14eca  !important;
+   }
+

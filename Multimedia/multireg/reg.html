@@ -1,0 +1,94 @@
+<html>
+<head>
+    <title>Mediqueta - Registro</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="regstyles.css">
+<script type="text/javascript" src="validacion.js"></script>
+    <link rel="icon" type="image/png" href="../img/MQ.png">
+    
+
+    
+    </head>
+     <body>
+    <header>
+    
+    <img class="logo" src=../img/mediqueta2.png alt="logo">
+    
+    
+    <nav>
+    <ul class="nav_link">
+        
+        <li><a href="../../index.html" > Inicio </li></a>
+        
+        <li><a href="../inicio/inicio.html"> Iniciar sesión</li></a>
+        <li><a href="reg.html"> Registro</li></a> 
+        </ul>
+    
+        
+    </nav>
+    <a class="cta" href="#"><button>Contacto</button></a>
+
+    </header>
+
+    
+   <div class="container">
+        
+        <section>
+            <div class="forms">
+                
+        <form action="registro.php" autocomplete="off" method="post">
+            
+            <label for="fname" class="labels" >Nombre Completo:</label><br>
+            <input type="text" id="fname" class="inputs" name="fname" required ><br>
+            <label for="user" class="labels">Usuario:</label><br>
+            <input type="text" id="user" class="inputs" name="user" required><br>
+            <label for="email" class="labels">Correo:</label><br>
+            <input type="email" id="email" class="inputs" name="email" required  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$"><br>
+            <label for="pass" class="labels">Contraseña:</label><br>
+            <input type="password" id="pass" class="inputs" name="pass" required ><br>
+            
+             <label for="pass" class="labels">Repetir Contraseña:</label><br>
+            <input type="password" id="pass" class="inputs" name="rpass" required ><br>
+            
+            <input type="submit" id="sub" class="buttonr" name="sub" value="submit">
+            
+            
+            
+            
+            
+            </form>
+       </div>
+        </section>
+        
+        <aside>
+            
+<img src=../img/tech3.gif class="imageside">
+<div class="textoenimg ">
+<h1>¡Registrate Hoy!</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <p>Nuestro sitio maneja tus datos de manera 100% anónima, gracias por confiar en nuestra solución para tus problemas. Mediqueta al servicio de la lectura.</p>
+    <br>
+    
+    </div>
+    
+            
+            
+</aside>
+       </div> 
+    
+      
+    
+    </body>
+
+
+
+
+
+
+
+</html>

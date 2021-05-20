@@ -1,0 +1,27 @@
+{
+  "name": "mediqueta",
+  "description": "Mediqueta al servicio de la lectura",
+  "main": "index.html",
+  "keywords": [
+    "mediqueta"
+  ],
+  "authors": [
+    "David Gutiérrez@Kronozero"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "fontawesome": "^5.13.0",
+    "jquery": "^3.5.1",
+    "aos": "^2.3.4"
+  }
+}
